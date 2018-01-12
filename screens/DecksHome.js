@@ -12,7 +12,7 @@ class DecksHome extends Component {
 
   static navigationOptions = ({ navigation }) => {
     return {
-      title: 'Decks',
+      title: 'My Decks',
       headerRight: (
         <Button
           backgroundColor="#564256"
@@ -47,7 +47,7 @@ class DecksHome extends Component {
               {title}
             </Text>
             <Text style={styles.deckContent}>
-              This deck has {questions.length} questions!
+              This deck has {questions.length} questions for you!
             </Text>
           </Card>
       </TouchableWithoutFeedback>

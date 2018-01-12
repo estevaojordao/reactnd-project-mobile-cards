@@ -46,7 +46,7 @@ class SingleDeck extends Component {
             />
             : <TouchableWithoutFeedback onPress={() => navigation.navigate('AddQuestion', title)}>
                 <View>
-                  <Text style={styles.addSome}>Add some!</Text>
+                  <Text style={styles.addSome}>Add Card!</Text>
                 </View>
               </TouchableWithoutFeedback>
         }
