@@ -1,6 +1,5 @@
-## UdaciCards
-
-This iPhone mobile application can be used as a flash card to quiz yourself.
+## React project mobile cards project
+This Android mobile application can be used as a flash card to quiz yourself.
 
 ## How to install and run
 
@@ -11,4 +10,4 @@ yarn install
 yarn start
 ```
 
-Then press i to open iOS emulator.
+Then press a to open Android emulator in Mac OS using EXP system.
